@@ -1,6 +1,6 @@
 # UITX - Context Manager CLI
 
-[![janwilmake/uitx context](https://badge.forgithub.com/janwilmake/uitx)](https://uithub.com/janwilmake/uitx)
+[![janwilmake/uitx context](https://badge.forgithub.com/janwilmake/uitx)](https://uithub.com/janwilmake/uitx) [![](https://badge.xymake.com/janwilmake/status/1925113500486992375)](https://xymake.com/janwilmake/status/1925113500486992375)
 
 UITX makes [uit](https://github.com/janwilmake/uit) available for programmatic use and as a CLI.
 
@@ -29,3 +29,5 @@ uithub so far has been provided as website where you can browse repos. I started
 [Critics](https://x.com/samgoodwin89/status/1916638156776198340) wanted the context exploration as CLI/library so they can use it at build-time, not dynamically as a service. They have a point!
 
 uitx will provide a new way of accessing your codes context: as a CLI that brings it into any IDE.
+
+Follow along in [this thread](https://x.com/janwilmake/status/1925113500486992375)
