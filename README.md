@@ -1,17 +1,19 @@
 # UITX - Context Manager CLI
 
+[![janwilmake/uitx context](https://badge.forgithub.com/janwilmake/uitx)](https://uithub.com/janwilmake/uitx)
+
 UITX makes [uit](https://github.com/janwilmake/uit) available for programmatic use and as a CLI.
 
-## Usage:
+## Usage
 
 - As CLI: `npx uitx`
 - As script: `npm i --save-dev uitx` and add `{ "scripts": { "context": "uitx" } }` to your package.json
 - Programmatically: `npm i uitx` and `import { pipe } from "uitx";`
 
+## POC: Focus on CLI
+
 > [!IMPORTANT]
 > Work in Progress
-
-## POC: Focus on CLI
 
 - cli-based oauth with github
 - finds `package.json` and lockfile (for dependencies)
