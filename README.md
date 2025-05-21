@@ -13,7 +13,7 @@ UITX makes [uit](https://github.com/janwilmake/uit) available for programmatic u
 ## POC: Focus on CLI
 
 > [!IMPORTANT]
-> Work in Progress
+> This is a **Work in Progress**. This already provides value by neatly creating a single folder per dependency, plus a folder for your own repo/package that provides improved context. It nails the entire flow that's needed to be adoptable in the developers IDE, while keeping things simple, making this a fully API based CLI for now. At a later stage, we can add support for more fine-grained control for which context to build, for example through plugins like `openapi` and `swc` (WIP).
 
 - cli-based oauth with github
 - finds `package.json` and lockfile (for dependencies)
@@ -21,8 +21,6 @@ UITX makes [uit](https://github.com/janwilmake/uit) available for programmatic u
 - fetches every package context on uithubs api in parallel (authenticated)
 - fetches every context on uithubs api in parallel (authenticated)
 - writes each result to `/.context`
-
-This already provides value by neatly creating a single folder per dependency, plus a folder for your own repo/package that provides improved context
 
 # ADR
 
