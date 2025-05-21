@@ -9,6 +9,6 @@ make a node.js file cli.js without dependencies that:
 - when opening that, also spawns a temporary http server at 9001 that listens for the GET /callback endpoint
 - the GET /callback will confirm the state is correct, call the proxy wit the code and retrieve the access token, after which the temp http server gets closed and the access_token gets stored in the global location.
 
-nb: use regular "fetch" to do the api calls, but use http to spawn the temporary server
+NB: use regular "fetch" to do the api calls, but use http to spawn the temporary server
 
 Result: https://www.lmpify.com/httpsuithubcomj-m8tfk00
