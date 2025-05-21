@@ -24,10 +24,4 @@ UITX makes [uit](https://github.com/janwilmake/uit) available for programmatic u
 
 # ADR
 
-uithub so far has been provided as website where you can browse repos. I started early with https://npmjz.com but this never took off.
-
-[Critics](https://x.com/samgoodwin89/status/1916638156776198340) wanted the context exploration as CLI/library so they can use it at build-time, not dynamically as a service. They have a point!
-
-uitx will provide a new way of accessing your codes context: as a CLI that brings it into any IDE.
-
-Follow along in [this thread](https://x.com/janwilmake/status/1925113500486992375)
+Follow along in [this thread](https://x.com/janwilmake/status/1925113500486992375) (md version [here](https://xymake.com/janwilmake/status/1925113500486992375))
