@@ -1,0 +1,7 @@
+name = "forgithub_oauthproxy"
+compatibility_date = "2025-04-21"
+dev.port = 3000
+main = "main.ts"
+routes = [ 
+  { pattern = "oauthproxy.forgithub.com", custom_domain = true }
+]
