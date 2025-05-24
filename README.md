@@ -18,7 +18,7 @@ UITX makes [uit](https://github.com/janwilmake/uit) available for programmatic u
 - ✅ cli-based oauth with github
   - ✅ proxy: https://www.lmpify.com/httpsuuithubcom-ow5mjz0
   - ✅ oauth: https://www.lmpify.com/httpsuithubcomj-m8tfk00
-- Gathering codebase footprint files
+- Gathering codebase footprint files:
   - Finds `package.json` and lockfile (for dependencies) --> sends that to dependency resolver api (i made before)
   - Also finds `git remote` and `context.json` (for repo itself)
 - fetches every package context on uithubs api in parallel (authenticated)
